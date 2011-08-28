@@ -1,0 +1,540 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face { font-family: "Pristina"; src: url("/htdocs/css/text/Pristina.ttf"); }
+@font-face { font-family: "ArialRounded"; src: url("/htdocs/css/text/arial-rounded-mt-bold.ttf"); }
+@font-face { font-family: "Elephant"; src: url("/htdocs/css/text/Elephant.ttf");}
+@font-face { font-family: "Commercial"; src: url("/htdocs/css/text/comscrpt.ttf");}
+@font-face { font-family: "Broadway"; src: url("/htdocs/css/text/BROADWAY.TTF");}
+
+
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	min-width:1000px;
+	background-color:#656565;
+	margin:0 auto;
+	background:#DADBE3;
+	text-align:left;
+	margin-top:50px;
+	background:#333;
+/*	width:911px;
+*/	
+}
+
+#headerImg
+{
+	width:1000px;
+	height:173px;
+	margin:0 auto;
+	background:url(/htdocs/css/index_images/MainUofMballroom-website4_01.png);
+}
+
+
+
+#firstLable{
+	width:100%;
+	float:left;
+}
+
+
+#university{
+	
+	float:left;
+	position:relative;
+	top:16px;
+	left:100px;
+	font-family:Elephant;
+	font-size:24pt;
+	color:white;
+}
+
+#team{
+	color:white;
+float:left;
+font-family:Commercial;
+font-size:27pt;
+left:-150px;
+position:relative;
+top:51px;
+}
+
+#secondLable{
+	
+	width:100%;
+	float:left;
+	position:relative;
+	top:50px;
+}
+
+#announcements{
+color:white;
+float:left;
+font-family:"Times New Roman",Times,serif;
+left:433px;
+position:relative;
+top:45px;
+}
+
+#eventsTitle{
+color:white;
+float:left;
+font-family:Broadway;
+font-size:30pt;
+left:645px;
+position:relative;
+top:10px;
+}
+
+#contentImg
+{
+	width:1000px;
+	height:415px;
+	margin:0 auto;
+	background:url(/htdocs/css/index_images/MainUofMballroom-website4_02.png);
+}
+
+#footerImg
+{
+	width:1000px;
+	height:29px;
+	margin:0 auto;
+	background:url(/htdocs/css/index_images/MainUofMballroom-website4_03.png);
+}
+
+#contentAnnouncements
+{
+	width:150px;
+	left:433px;
+	color:white;
+	font-size:8pt;
+	position:relative;
+	float:left;
+}
+
+
+
+
+#enter a
+{
+	font-family:ArialRounded;
+	font-size:26pt;
+	float:right;
+	position:relative;
+	top:365px;
+	right:20px;
+	color:#666;
+	text-decoration:none;
+}
+
+#enter a:hover{
+	color:black;	
+}
+ 
+#footerImg ul{
+	
+margin:0px;
+padding:0px;
+float:right;
+font-family:ArialRounded;
+margin-right:80px;
+color:#999
+}
+
+#footerImg ul li{
+	display:inline;
+	list-style:none;
+	margin-right:20px;
+}
+
+#footerImg ul li a{
+text-decoration:none;	
+color:#999;
+}
+
+#footerImg ul li a:hover{
+color:black;	
+}
+
+#contentEvents
+{
+	width:355px;
+	position:relative;
+	float:left;
+	left:445px; 
+	color:white;
+}
+
+
+/**********************************************GREEN EVENT********************************************/
+
+.event1Detail{
+	width: 355px;
+	position:relative;
+	float:left;
+	
+}
+
+.eventGreen
+{
+	width:198px;
+	height:72px;
+	position:relative;
+	background:url(/htdocs/css/index_images/MainUofMballroom-website2_03.png);	
+	float:right;
+}
+
+.greenDates
+{
+	font-family:Pristina;
+	float:left;
+	width:150px;
+	left:490px;
+	margin:0px;
+	padding-right:5px;
+}
+
+.greenDates .date{
+	font-family:Pristina;
+	float:right;
+	
+	width:100px;
+	text-align:right;
+	position:relative;
+	font-size:18pt;
+	top:-5px;
+	margin:0px;
+	padding-right:5px;
+}
+
+.greenDates .location{
+
+	font-family:Pristina;
+	float:right;
+	width:150px;
+	text-align:right;
+	position:relative;
+	font-size:14pt;
+	margin:0px;
+	padding-right:5px;
+	top:-14px;
+}
+
+.greenDates .time{
+	font-family:Pristina;
+	float:right;
+	width:100px;
+	text-align:right;
+	position:relative;
+	font-size:12pt;
+	top:-19px;
+	margin:0px;
+	padding-right:5px;
+
+}
+
+.eventGreen .title{
+	float:left;
+	font-size:10pt;
+	font-family:ArialRounded;
+	padding:3px 0px 3px 5px;
+}
+
+.eventGreen .description{
+	float:left;
+	font-size:8pt;
+	padding:3px 0px 3px 5px;
+	width:100%;
+}
+
+.eventGreen .more{
+	bottom:10px;
+	color:yellow;
+	float:right;
+	font-size:7pt;
+	position:relative;
+	right:5px;
+}
+
+
+/***************************************BROWN EVENT**********************************************/
+
+.event2Detail{
+	width: 355px;
+	position:relative;
+	float:left;
+	top:10px;
+}
+
+.eventBrown
+{
+	width:198px;
+	height:72px;
+	position:relative;
+	float:right;
+	
+	background:url(/htdocs/css/index_images/MainUofMballroom-website2_06.png);	
+}
+
+
+.brownDates
+{
+	font-family:Pristina;
+	float:left;
+	width:150px;
+	left:490px;
+	margin:0px;
+	padding-right:5px;
+}
+
+.brownDates .date{
+	font-family:Pristina;
+	float:right;
+	
+	width:100px;
+	text-align:right;
+	position:relative;
+	font-size:18pt;
+	top:-5px;
+	margin:0px;
+	padding-right:5px;
+}
+
+.brownDates .location{
+
+	font-family:Pristina;
+	float:right;
+	width:150px;
+	text-align:right;
+	position:relative;
+	font-size:14pt;
+	margin:0px;
+	padding-right:5px;
+	top:-14px;
+}
+
+.brownDates .time{
+	font-family:Pristina;
+	float:right;
+	width:100px;
+	text-align:right;
+	position:relative;
+	font-size:12pt;
+	top:-19px;
+	margin:0px;
+	padding-right:5px;
+
+}
+
+.eventBrown .title{
+	float:left;
+	font-size:10pt;
+	font-family:ArialRounded;
+	padding:3px 0px 3px 5px;
+}
+
+.eventBrown .description{
+	float:left;
+	font-size:8pt;
+	padding:3px 0px 3px 5px;
+	width:100%;
+}
+
+.eventBrown .more{
+	bottom:10px;
+	color:yellow;
+	float:right;
+	font-size:7pt;
+	position:relative;
+	right:5px;
+}
+
+
+
+
+
+
+/***************************************************Orange*****************************************/
+/***************************************BROWN EVENT**********************************************/
+
+.event3Detail{
+	width: 355px;
+	position:relative;
+	float:left;
+	top:20px;
+}
+
+.eventOrange
+{
+	width:198px;
+	height:72px;
+	position:relative;
+	float:right;
+	
+	background:url(/htdocs/css/index_images/MainUofMballroom-website2_08.png);	
+}
+
+
+.orangeDates
+{
+	font-family:Pristina;
+	float:left;
+	width:150px;
+	left:490px;
+	margin:0px;
+	padding-right:5px;
+}
+
+.orangeDates .date{
+	font-family:Pristina;
+	float:right;
+	
+	width:100px;
+	text-align:right;
+	position:relative;
+	font-size:18pt;
+	top:-5px;
+	margin:0px;
+	padding-right:5px;
+}
+
+.orangeDates .location{
+
+	font-family:Pristina;
+	float:right;
+	width:150px;
+	text-align:right;
+	position:relative;
+	font-size:14pt;
+	margin:0px;
+	padding-right:5px;
+	top:-14px;
+}
+
+.orangeDates .time{
+	font-family:Pristina;
+	float:right;
+	width:100px;
+	text-align:right;
+	position:relative;
+	font-size:12pt;
+	top:-19px;
+	margin:0px;
+	padding-right:5px;
+
+}
+
+.eventOrange .title{
+	float:left;
+	font-size:10pt;
+	font-family:ArialRounded;
+	padding:3px 0px 3px 5px;
+}
+
+.eventOrange .description{
+	float:left;
+	font-size:8pt;
+	padding:3px 0px 3px 5px;
+	width:100%;
+}
+
+.eventOrange .more{
+	bottom:10px;
+	color:yellow;
+	float:right;
+	font-size:7pt;
+	position:relative;
+	right:5px;
+}
+
+
+/*********************************************RED event**************************************/
+.event4Detail{
+	width: 355px;
+	position:relative;
+	float:left;
+	top:30px;
+}
+
+.eventRed
+{
+	width:198px;
+	height:72px;
+	position:relative;
+	float:right;
+	
+	background:url(/htdocs/css/index_images/MainUofMballroom-website2_10.png);	
+}
+
+
+.redDates
+{
+	font-family:Pristina;
+	float:left;
+	width:150px;
+	left:490px;
+	margin:0px;
+	padding-right:5px;
+}
+
+.redDates .date{
+	font-family:Pristina;
+	float:right;
+	
+	width:100px;
+	text-align:right;
+	position:relative;
+	font-size:18pt;
+	top:-5px;
+	margin:0px;
+	padding-right:5px;
+}
+
+.redDates .location{
+
+	font-family:Pristina;
+	float:right;
+	width:150px;
+	text-align:right;
+	position:relative;
+	font-size:14pt;
+	margin:0px;
+	padding-right:5px;
+	top:-14px;
+}
+
+.redDates .time{
+	font-family:Pristina;
+	float:right;
+	width:100px;
+	text-align:right;
+	position:relative;
+	font-size:12pt;
+	top:-19px;
+	margin:0px;
+	padding-right:5px;
+
+}
+
+.eventRed .title{
+	float:left;
+	font-size:10pt;
+	font-family:ArialRounded;
+	padding:3px 0px 3px 5px;
+}
+
+.eventRed .description{
+	float:left;
+	font-size:8pt;
+	padding:3px 0px 3px 5px;
+	width:100%;
+}
+
+.eventRed .more{
+	bottom:10px;
+	color:yellow;
+	float:right;
+	font-size:7pt;
+	position:relative;
+	right:5px;
+}

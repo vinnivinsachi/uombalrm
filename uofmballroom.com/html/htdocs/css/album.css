@@ -1,0 +1,236 @@
+/****************************************************PHOTO ALBUM*************************************/
+
+#photoAlbum{
+
+margin:0px auto;
+text-align:left;
+padding:10px;
+
+width:100%;
+}
+
+.albumBox{
+	background:#333;
+}
+
+.folderIcon{
+	padding-left:3px;
+	padding-top:3px;
+	cursor:pointer;
+}
+
+#albumTitle{
+	float:left;
+	height:55px;
+	width:906px;
+	font-size:16px;
+	color:white;
+	padding-left:5px;
+}
+
+.smallText{
+	font-weight:normal;
+	font-size:12px; 
+	background:#999;
+	padding:3px;
+	color:white;
+}
+
+#albumTitle span{
+	cursor:pointer;
+	margin-left:3px;
+	margin-right:6px;
+}
+
+#albumTitle span:hover{
+	background:#999;	
+
+	
+}
+
+#albumLeftContainer{
+	float:left;
+	width:200px;
+	color:white;
+}
+
+#albumFolders{
+	float:left;
+	padding-top:10px;
+	padding-left:10px;
+	padding-bottom:20px;
+	font-size:12px;
+	width:100%;
+	color:white;
+	
+}
+
+#albumFolders a{
+	padding-left:10px;
+}
+
+#albumFolders span{
+	margin-left:5px;
+	margin-top:-5px;
+	padding: 3px;
+	cursor:pointer;
+}
+
+#albumFolders span:hover{
+	background:#999;	
+	/*font-size:14px;*/
+}
+
+#albumImages{
+	float:right;	
+	width:200px;
+	padding-bottom:20px;
+	height:450px;
+	overflow:auto; 
+	overflow-x:hidden;
+}
+
+#albumCloseup{
+float:right;
+width:701px;
+padding-bottom:20px;
+text-align:center;
+
+}
+
+#albumCloseup_img{
+	border:5px solid white;
+	float:left;
+}
+
+
+
+.albumImage_title{
+	float:left;
+	width:160px;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+}
+
+.albumImage_title img{
+	border:5px solid white;
+	cursor:pointer;
+	opacity:.6;
+}
+
+.albumImage_title img:hover{
+	 opacity:1;
+}
+
+
+
+#previousImageButton{
+	float:left;
+	width:80px;
+	cursor:pointer;
+
+}
+
+#nextImageButton{
+	float:right;
+	width:80px;
+	cursor:pointer;
+}
+
+
+/*****************************************************************slide show css********************/
+
+#albumRightSide{
+width:200px;
+float:right;
+padding:5px;
+background:#666;
+text-align:center;
+color:white;
+}
+
+
+#albumSlideshowName{
+	text-align:center;
+	margin:0 auto;
+}
+
+
+#albumSlides{
+margin-top:10px;
+float:right;
+height:400px;
+width:100%;
+overflow:auto;
+overflow-x:hidden;
+text-align:center;
+color:white;
+}
+
+
+
+#albumTrash{
+	border-top:3px solid #666;
+	float:right;
+	height:100px;
+	width:100%;
+	color:white;
+}
+
+#albumSlideshows{
+padding-left:10px;
+padding-bottom:10px;
+color:white;
+}
+
+
+
+
+
+#albumLiveSlides{
+	position:absolute;
+	top:25px;
+	left:25px;
+	width:735px;
+	height:520px;
+	border: solid white 2px;
+	z-index:100;
+	background-color:#999;
+}
+
+
+.albumLiveslide{
+	text-align:center;
+}
+
+.albumLiveimage{
+	margin:25px;
+	margin-bottom:6px;
+}
+
+.albumLivecaption{
+	font-size:1.2em;
+	color:white;
+	text-align:center;
+	width:700px;
+	margin-left:24px;
+	margin-right:24px;
+}
+
+.Slide{
+width:160px;
+padding:3px;
+float:right;
+margin-bottom:5px;
+margin:5px;
+}
+
+.Slide img{
+	border:3px solid white;
+}
+
+.hoverSlides{
+	background:#666;
+}

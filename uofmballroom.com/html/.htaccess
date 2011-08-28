@@ -1,0 +1,20 @@
+<Files "config.php">
+Order Allow,Deny
+Deny from All
+</Files>
+
+<Files "common.php">
+Order Allow,Deny
+Deny from All
+</Files>
+
+DirectoryIndex index.php index.html
+
+RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+RewriteCond %{REQUEST_URI} !^/lists
+RewriteCond %{REQUEST_URI} !^/wordpress
+RewriteCond %{REQUEST_URI} !^/htdocs/jquery/jquery_lib/jqueryFileTree/connectors/jqueryFileTree.php
+RewriteRule ^(.*)$ index.php/$1

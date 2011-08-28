@@ -1,0 +1,392 @@
+/* CSS Document */
+
+/* CSS Document */
+
+/*home styling*/
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	min-width:900px;
+	background-color:#656565;
+	margin:auto;
+	margin-left:40px;
+	margin-top:20px;
+	width:911px;
+	
+}
+
+#managementLink{
+margin-left:10px;
+padding-bottom:10px;
+font-size:0.8em;
+}
+
+#messages{
+padding:20px;
+background:#FFFFFF;
+}
+
+/*p{
+padding:0px;
+margin:0px;
+}*/
+
+a:link {
+	text-decoration: none;
+	color: #3A5E86;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #0000FF;
+}
+a:active {
+	text-decoration: none;
+}
+
+img{
+	border:none;
+	}
+
+#header{
+	text-align: center;
+	width: 911px;
+	height:131px;
+	margin:0px auto;
+	float:left;
+}
+
+#content{
+	text-align:center;
+	background:#656565;
+	
+}
+
+#banner{
+padding-top:10px;
+padding-bottom:10px;
+padding-left:8px;
+background-image:url(/data/images/background_slice.png);
+} 
+
+#banner li{
+padding:0px;
+margin:0px;
+list-style:none;
+}
+
+#banner ul{
+padding:0px;
+margin:0px;
+}
+
+#bannerTop{
+width:911px;
+height:23px;
+float:left;
+background-image:url(/data/images/background_top_slice.png);
+}
+
+#wrapper{
+	padding-top:10px;
+	margin:0 auto;
+	width:911px;
+	text-align: left;
+	background-image:url(/data/images/Mainbackground.png);
+	background-repeat:repeat;
+	float:left;
+
+	/*float:left;*/
+}
+
+#leftContainer{
+	
+	width:650px;
+	float:left;
+	padding-left:8px;
+}
+
+#rightContainer{
+	width:250px;
+	float:right;
+}
+
+#footer{ 
+	margin:0px auto;
+	text-align:center;
+	width:911px;
+	height:116px;
+	background-image:url(/data/images/footer_piece.png);
+	margin-bottom:20px;
+	float:left;
+	
+}
+
+#footer a{
+	color:white;
+}
+
+#footer a:hover{
+	color:yellow;
+	font-weight:bold;
+}
+
+p{
+padding:0px;
+margin:10px;
+}
+
+
+/*--------------------------------------------------
+navigational links on the ver top
+--------------------------------------------------*/
+
+#nav{
+/*margin:0px auto;*/
+width:911px;
+float:left;
+}
+
+
+
+/*-------------------------
+js dropdown
+*------------------------*/
+
+#dropmenudiv{
+position:absolute;
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+}
+
+#dropmenudiv a{
+width: 100%;
+display: block;
+text-indent: 3px;
+padding: 4px 0;
+text-decoration: none;
+font-weight: bold;
+color:white;
+}
+
+#dropmenudiv a:hover{ /*hover background color*/
+background-color: yellow;
+color:#3A5E86;
+}
+
+
+/*-----------------------------------------------
+*breadcrumbs
+*------------------------------------------------*/
+#breadcrumb {
+	/*no styling*/
+}
+
+#upCommingCompetitions{
+
+}
+
+#result{
+	text-align:center;
+}
+
+	
+/***********product views***********************/
+#product-purchase{
+	padding:10px;
+	border-bottom:1px #CCCCCC solid;
+	float:left; 
+}
+ 
+#product-purchase ul{
+	padding:0px;
+	margin:0px;
+}
+
+#product-purchase ul li{
+	display:inline;
+	list-style:none;
+	padding: 10px 10px 10px 0px;
+}
+
+/*******************calender**********************/
+#calender{
+width:230px;
+float:left;
+padding:5px;
+border:1px #CCCCCC solid;
+background:#CCCCCC;
+height:200px;
+}
+
+/********************shoutbox.tpl*****************/
+#shoutbox{
+width:240px;
+float:left;
+padding-top:10px;
+height:200px;
+
+}
+
+
+/********************* side style Link******************/
+#squareLink{
+width:100%;
+padding:0px;
+float:left;
+}
+
+#squareLink ul{
+margin:0px;
+padding:0px;
+float:left;
+}
+
+#squareLink li{
+
+	width:130px;
+	padding:5px;
+	background:white;
+	display:inline;
+	float:left;
+	margin:5px;
+}
+
+
+
+/********************* side style Link4******************/
+#squareLink4{
+width:100%;
+padding:0px;
+float:left;
+}
+
+#squareLink4 ul{
+margin:0px; 
+padding:0px;
+float:left;
+}
+
+#squareLink4 li{
+
+	width:205px;
+	padding:5px;
+	background:white;
+	display:inline;
+	float:left;
+	margin:5px;
+}
+
+#squareLink3{
+width:100%;
+padding:0px;
+float:left;
+}
+
+#squareLink3 ul{
+margin:0px; 
+padding:0px;
+float:left;
+}
+
+#squareLink3 li{
+
+	width:260px;
+	padding:5px;
+	background:white;
+	display:inline;
+	float:left;
+	margin:5px;
+	margin-left:22px;
+}
+
+#squareLink2{
+width:100%;
+padding:0px;
+float:left;
+}
+
+#squareLink2 ul{
+margin:0px; 
+padding:0px;
+float:left;
+} 
+
+#squareLink2 li{
+
+	width:400px; 
+	padding:5px;
+	background:white;
+	display:inline;
+	float:left;
+	margin:5px;
+	margin-left:30px;
+}
+
+/*******************preview editing**********/
+#preview-tags ul li{
+list-style:none;
+}
+
+#preview-tags2 ul li{
+list-style:none;
+}
+
+#preview-months ul li{
+list-style:none;
+}
+
+/*********************preview images******************/
+
+#preview-images{
+	background:#CCCCCC;
+	margin-bottom: 5px;
+	padding : 5px;
+}
+
+#preview-images ul{
+	list-style-image: none;
+	margin:0px;
+	padding:0px;
+}
+
+#preview-images li{
+	float:left;
+	font-size:0.85em;
+	text-align:center;
+	margin:3px;
+	padding:2px;
+	border:1px solid #ddd;
+	background: #fff;
+	list-style:none;
+}
+
+#preview-images img{
+	display:block;
+}
+
+#preview-images div{
+	clear:both;
+}
+
+#preview-images input{
+	font-size: 0.95em;
+}
+
+#accountLogin{
+position:relative;
+width:20px;
+height:20px;
+top:90px;
+left:10px;
+}
+
+#calenderBig{
+width:100%;
+padding:10px;
+}
+

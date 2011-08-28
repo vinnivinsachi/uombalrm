@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="core.assemble_plugin_filepath.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.assign_smarty_interface.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.create_dir_structure.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.display_debug_console.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.get_include_path.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.get_microtime.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.get_php_resource.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.is_secure.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.is_trusted.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.load_plugins.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.load_resource_plugin.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.process_cached_inserts.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.process_compiled_include.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.read_cache_file.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.rm_auto.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.rmdir.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.run_insert_handler.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.smarty_include_php.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.write_cache_file.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.write_compiled_include.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.write_compiled_resource.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+<file name="core.write_file.php" server="uofmballroom.com" local="128902932000000000" remote="128902932000000000" />
+</dwsync>

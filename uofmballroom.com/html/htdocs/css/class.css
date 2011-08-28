@@ -1,0 +1,307 @@
+/* CSS Document */
+
+
+/*class styling*/
+
+
+
+.style15 {font-size: 16px; }
+.style12 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 16px; font-weight: bold; color: #3A5E86; }
+.style3 {font-family: Georgia, "Times New Roman", Times, serif; color: #3A5E86; }
+
+.style7 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 24px; font-weight: bold; color: #000066; }
+.style16 {font-family: Georgia, "Times New Roman", Times, serif; color: #3A5E86; font-weight: bold; }
+
+.style9{
+width:100%;
+float:left;
+text-align:center;
+padding-top:20px;
+}
+
+.style8{
+width:100%;
+float:left;
+text-align:center;
+}
+
+.paddingContent{padding-left:50px; padding-right:50px; } 
+/* CSS Document */
+
+#secTier{
+margin:0px auto;
+}
+
+.bucketSectier{
+width:375px;
+height:260px;
+float:left;
+margin-left:30px;
+margin-right:30px;
+margin-top:10px;
+}
+
+.bucketTopLeft{
+	height:75px;
+	width:50px;
+	background-image:url(/data/images/topLeft.png);
+	float:left;
+}
+
+.bucketTopCenter{
+	width:250px;
+	height:75px;
+	background-image:url(/data/images/topCenter.png);
+	float:left;
+
+}
+
+.bucketTopRight{
+	width:50px;
+	height:75px;
+	background-image:url(/data/images/topRight.png);
+	float:left;
+}
+
+.bucketMidLeft{
+	width:50px;
+	height:50px;
+	background-image:url(/data/images/midLeft.png);
+	float:left;
+}
+
+.bucketMidMid{
+	width:250px;
+	height:50px;
+	background-image:url(/data/images/midMid.png);
+	
+	float:left;
+}
+
+.bucketMidRight{
+	width:50px;
+	height:50px;
+	background-image:url(/data/images/midRight.png);
+	float:left;
+}
+
+.bucketBottomLeft{
+	width:50px;
+	height:75px;
+	background-image:url(/data/images/bottomLeft.png);
+	float:left;
+}
+
+.bucketButtomCenter{
+	width:250px;
+	height:75px;
+	background-image:url(/data/images/bottomCenter.png);
+	float:left;
+}
+
+.bucketButtomRight{
+	width:50px;
+	height:75px;
+	background-image:url(/data/images/bottomRight.png);
+	float:left;
+}
+
+.bucketPanel
+{
+	width:640px;
+	margin-bottom:20px;
+	float:left;
+
+}
+
+.bucketDate{
+font-size:.7em;
+margin-left: 20px; 
+}
+.panel_top_left{
+background-image:url(/data/images/panel_top_left.png);
+width:10px;
+height:45px;
+	float:left;
+
+}
+
+.panel_top_mid{
+background-image:url(/data/images/panel_top_mid.png);
+width:620px;
+padding-top:5px;
+height:40px;
+	float:left;
+
+}
+
+.panel_top_right{
+background-image:url(/data/images/panel_top_right.png);
+width:10px;
+height:45px;
+	float:left;
+
+}
+
+.panel_content{
+background-image:url(/data/images/panel_content.png);
+width:630px;
+	float:left;
+padding-left:10px;
+}
+
+.panel_center_right{
+background-image:url(/data/images/panel_center_right.png);
+width:10px;
+float:left;
+}
+
+.panel_bottom_left{
+background-image:url(/data/images/panel_bottom_left.png);
+width:10px;
+
+height:20px;
+float:left;
+
+}
+
+.panel_bottom_center{
+background-image:url(/data/images/panel_bottom_center.png);
+width:620px;
+	float:left;
+
+height:20px;
+}
+
+.panel_bottom_right{
+background-image:url(/data/images/panel_bottom_right.png);
+width:10px;
+height:20px;
+	float:left;
+
+
+}
+
+.title_bar{
+width:100%;
+}
+
+.title
+{
+font-weight:bold;
+width:80%;
+float:left;
+}
+
+.teaser-image{
+padding: 10px;
+float:left;
+}
+
+.teaser-links{
+text-align:right;
+font-size:10px;
+}
+
+.edit_pen{
+float:right;
+width:15%;
+text-align:right;
+}
+
+.edit_pen2{
+position:relative;
+width:20px;
+height:20px;
+float:right;
+z-index:10;
+}
+
+.edit_pen2 a{
+position:relative;
+z-index:10;
+}
+
+.edit_pen2 img{
+position: relative;
+z-index:10;
+}
+
+.pen{
+width:20px;
+height:20px;
+} 
+/*******************BOXES********************/
+
+.box{
+font-size:0.8em;
+}
+
+/*******************FORMS********************/
+
+form{
+/*text-align:center;*/
+}
+
+.submit{
+margin-top:10px;
+margin-bottom:10px;
+}
+
+/*******************Status******************/
+.status{
+padding:2px;
+border:1px #999999 solid;
+}
+
+.draft{
+background:#FF9900;
+}
+
+.live{
+background:#66FFCC;
+}
+
+.expired{
+background:#FF0000;
+color:white;
+font-size:0.7em;
+}
+
+.button{
+background:#CCCCCC;
+color:white;
+font-size:0.7em;
+
+}
+
+.button a:visited{
+color:#FFFF00;
+}
+
+
+
+
+/***********links***************/
+.Link1{
+width:100%;
+text-align:center;
+font-weight:bold;
+background:#3A5E86;
+font-size:0.8em;
+color:white; 
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.Link1 a{
+color:white;
+} 
+
+.Link1 a:hover{
+color:#FFCC00;
+}
+
+
+
+

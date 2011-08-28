@@ -1,0 +1,49 @@
+#content{
+	background:#333;
+	color:white;
+}
+
+
+
+#videoAlbum
+{
+	color:white;
+	margin-top:20px;
+	margin-bottom:20px;
+	width:650px;
+}
+
+.videoAlbumEntree img{
+	float:left;
+	border-top:5px solid #000;
+	border-bottom: 5px solid #000;
+	opacity:0.7;
+	cursor:pointer;
+}
+
+.videoAlbumEntree img:hover{
+	opacity:1;
+}
+
+.videoAlbumDescription{
+	float:left;
+	width:400px;
+	margin-left:10px;
+	
+}
+
+.videoTitle{
+font-weight:bold;
+color:#FC0;
+	
+}
+
+.videoAlbumEntree{
+	margin-bottom:10px;
+	border-bottom: 1px solid #CCC;
+	/*width:650px;*/
+	float:left;
+	width:100%;
+	padding-bottom:3px;
+}
+
